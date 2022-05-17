@@ -6,7 +6,12 @@ function Projects() {
       <section className="projects-wrapper" id="projects">
         <h2>PROJECTS</h2>
         <div className="lyricle">
-          <h3>Lyricle</h3>
+          <a href="https://www.playlyricle.com">
+            <h3>Lyricle</h3>
+          </a>
+          <a href="https://github.com/ashleygyngell/lyricle-frontend">
+            <i className="fa-brands fa-2x fa-github"></i>
+          </a>
           <h5>Solo Project, 7 Days</h5>
           <p>
             <ul>
@@ -27,7 +32,12 @@ function Projects() {
         </div>
 
         <div className="discoverly">
-          <h3>Discover.ly</h3>
+          <a href="https://discoverly.netlify.app/">
+            <h3>Discover.ly</h3>
+          </a>
+          <a href="https://github.com/ashleygyngell/discover.ly">
+            <i className="fa-brands fa-2x fa-github"></i>
+          </a>
           <h5>Group Project, 10 Days</h5>
           <p>
             <ul>
@@ -52,7 +62,12 @@ function Projects() {
         </div>
 
         <div className="cryptmocash">
-          <h3>CryptMo CAsh</h3>
+          <a href="https://cryptmo-cash.netlify.app/">
+            <h3>CryptMo CAsh</h3>
+          </a>
+          <a href="https://github.com/ashleygyngell/CryptMo-CAsh">
+            <i className="fa-brands fa-2x fa-github"></i>
+          </a>
           <h5>Paired Project, 2 Days</h5>
           <p>
             <ul>
@@ -70,7 +85,12 @@ function Projects() {
         </div>
 
         <div className="seipermarioman">
-          <h3>SEIper Mario-Man</h3>
+          <a href="https://ashleygyngell.github.io/SEI-PER-MARIO-MAN/">
+            <h3>'SEI'per Mario-Man</h3>
+          </a>
+          <a href="https://github.com/ashleygyngell/SEI-PER-MARIO-MAN">
+            <i className="fa-brands fa-2x fa-github"></i>
+          </a>
           <h5>Solo Project, 5 Days</h5>
           <p>
             <ul>
