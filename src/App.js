@@ -10,6 +10,16 @@ import Footer from './components/Footer';
 import Experience from './components/Experience';
 import Interests from './components/Interests';
 
+const toTop = document.querySelector('.to-top');
+
+window.onscroll = function () {
+  if (window.scrollY >= 500) {
+    toTop.style.opacity = '1';
+  } else {
+    toTop.style.opacity = '0';
+  }
+};
+
 function App() {
   return (
     <>
