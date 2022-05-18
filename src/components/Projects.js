@@ -20,10 +20,10 @@ function Projects() {
           >
             <i className="fa-brands fa-2x fa-github"></i>
           </a>
-          <h4>
+          <h3>
             Solo Project
             <br /> 7 Days
-          </h4>
+          </h3>
           <p>
             <ul>
               <li>
@@ -69,10 +69,10 @@ function Projects() {
           >
             <i className="fa-brands fa-2x fa-github"></i>
           </a>
-          <h4>
+          <h3>
             Group Project <br />
             10 Days
-          </h4>
+          </h3>
           <p>
             <ul>
               <li>
@@ -122,10 +122,10 @@ function Projects() {
           >
             <i className="fa-brands fa-2x fa-github"></i>
           </a>
-          <h4>
+          <h3>
             Paired Project
             <br /> 2 Days
-          </h4>
+          </h3>
           <p>
             <ul>
               <li>
@@ -168,9 +168,9 @@ function Projects() {
           >
             <i className="fa-brands fa-2x fa-github"></i>
           </a>
-          <h4>
+          <h3>
             Solo Project <br /> 5 Days
-          </h4>
+          </h3>
           <p>
             <ul>
               <li>A grid based game written in JavaScript, CSS and HTML.</li>
