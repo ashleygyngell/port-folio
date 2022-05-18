@@ -6,13 +6,24 @@ function Projects() {
       <section className="projects-wrapper" id="projects">
         <h2>PROJECTS</h2>
         <div className="lyricle">
-          <a href="https://www.playlyricle.com">
+          <a
+            href="https://www.playlyricle.com"
+            target="_blank"
+            rel="noreferrer"
+          >
             <h3>Lyricle</h3>
           </a>
-          <a href="https://github.com/ashleygyngell/lyricle-frontend">
+          <a
+            href="https://github.com/ashleygyngell/lyricle-frontend"
+            target="_blank"
+            rel="noreferrer"
+          >
             <i className="fa-brands fa-2x fa-github"></i>
           </a>
-          <h4>Solo Project, 7 Days</h4>
+          <h4>
+            Solo Project
+            <br /> 7 Days
+          </h4>
           <p>
             <ul>
               <li>
@@ -29,23 +40,39 @@ function Projects() {
               </li>
             </ul>
           </p>
-
-          <img
-            src="https://res.cloudinary.com/dj7e2jadx/image/upload/v1652865710/Lyricle-Screenshot_pdwbtq.png"
-            alt="lyricle-screenshot"
-            width="300"
-            height="540"
-          />
+          <a
+            href="https://www.playlyricle.com"
+            target="_blank"
+            rel="noreferrer"
+          >
+            <img
+              src="https://res.cloudinary.com/dj7e2jadx/image/upload/v1652865710/Lyricle-Screenshot_pdwbtq.png"
+              alt="lyricle-screenshot"
+              width="300"
+              height="540"
+            />
+          </a>
         </div>
 
         <div className="discoverly">
-          <a href="https://discoverly.netlify.app/">
+          <a
+            href="https://discoverly.netlify.app/"
+            target="_blank"
+            rel="noreferrer"
+          >
             <h3>Discover.ly</h3>
           </a>
-          <a href="https://github.com/ashleygyngell/discover.ly">
+          <a
+            href="https://github.com/ashleygyngell/discover.ly"
+            target="_blank"
+            rel="noreferrer"
+          >
             <i className="fa-brands fa-2x fa-github"></i>
           </a>
-          <h4>Group Project, 10 Days</h4>
+          <h4>
+            Group Project <br />
+            10 Days
+          </h4>
           <p>
             <ul>
               <li>
@@ -66,22 +93,39 @@ function Projects() {
               </li>
             </ul>
           </p>
-          <img
-            src="https://res.cloudinary.com/dj7e2jadx/image/upload/v1652865731/discoverly_screenshot_1_fx9cl2.png"
-            alt="lyricle-screenshot"
-            width="400"
-            height="400"
-          />
+          <a
+            href="https://discoverly.netlify.app/"
+            target="_blank"
+            rel="noreferrer"
+          >
+            <img
+              src="https://res.cloudinary.com/dj7e2jadx/image/upload/v1652865731/discoverly_screenshot_1_fx9cl2.png"
+              alt="discoverly-screenshot"
+              width="400"
+              height="400"
+            />
+          </a>
         </div>
 
         <div className="cryptmocash">
-          <a href="https://cryptmo-cash.netlify.app/">
+          <a
+            href="https://cryptmo-cash.netlify.app/"
+            target="_blank"
+            rel="noreferrer"
+          >
             <h3>CryptMo CAsh</h3>
           </a>
-          <a href="https://github.com/ashleygyngell/CryptMo-CAsh">
+          <a
+            href="https://github.com/ashleygyngell/CryptMo-CAsh"
+            target="_blank"
+            rel="noreferrer"
+          >
             <i className="fa-brands fa-2x fa-github"></i>
           </a>
-          <h4>Paired Project, 2 Days</h4>
+          <h4>
+            Paired Project
+            <br /> 2 Days
+          </h4>
           <p>
             <ul>
               <li>
@@ -95,22 +139,38 @@ function Projects() {
               </li>
             </ul>
           </p>
-          <img
-            src="https://res.cloudinary.com/dj7e2jadx/image/upload/v1652862917/cryptmocash_screenshot_1_rhysnb.png"
-            alt="lyricle-screenshot"
-            width="400"
-            height="400"
-          />
+          <a
+            href="https://cryptmo-cash.netlify.app/"
+            target="_blank"
+            rel="noreferrer"
+          >
+            <img
+              src="https://res.cloudinary.com/dj7e2jadx/image/upload/v1652862917/cryptmocash_screenshot_1_rhysnb.png"
+              alt="cryptmocash-screenshot"
+              width="400"
+              height="400"
+            />
+          </a>
         </div>
 
         <div className="seipermarioman">
-          <a href="https://ashleygyngell.github.io/SEI-PER-MARIO-MAN/">
+          <a
+            href="https://ashleygyngell.github.io/SEI-PER-MARIO-MAN/"
+            target="_blank"
+            rel="noreferrer"
+          >
             <h3>'SEI'per Mario-Man</h3>
           </a>
-          <a href="https://github.com/ashleygyngell/SEI-PER-MARIO-MAN">
+          <a
+            href="https://github.com/ashleygyngell/SEI-PER-MARIO-MAN"
+            target="_blank"
+            rel="noreferrer"
+          >
             <i className="fa-brands fa-2x fa-github"></i>
           </a>
-          <h4>Solo Project, 5 Days</h4>
+          <h4>
+            Solo Project <br /> 5 Days
+          </h4>
           <p>
             <ul>
               <li>A grid based game written in JavaScript, CSS and HTML.</li>
@@ -120,12 +180,18 @@ function Projects() {
               </li>
             </ul>
           </p>
-          <img
-            src="https://res.cloudinary.com/dj7e2jadx/image/upload/v1652865742/seipermario-screenshot-1_cwozkz.png"
-            alt="lyricle-screenshot"
-            width="400"
-            height="400"
-          />
+          <a
+            href="https://ashleygyngell.github.io/SEI-PER-MARIO-MAN/"
+            target="_blank"
+            rel="noreferrer"
+          >
+            <img
+              src="https://res.cloudinary.com/dj7e2jadx/image/upload/v1652865742/seipermario-screenshot-1_cwozkz.png"
+              alt="seipermarioman-screenshot"
+              width="400"
+              height="400"
+            />
+          </a>
         </div>
       </section>
     </>
