@@ -260,6 +260,11 @@ a:hover:after {
   animation: fadeInUp 1.3s ease backwards;
   animation-delay: .5s;
   }
+    .fadeInUp4 {
+      animation: fadeInUp 1.3s ease backwards;
+      animation-delay: 1s;
+      color: red;
+    }
 
 .hero-section h1 {
   font-weight:400;

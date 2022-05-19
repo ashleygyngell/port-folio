@@ -28,6 +28,15 @@ function Hero() {
             >
               Junior Software Engineer
             </h5>
+            <h6
+              className="role-title fadeInUp4"
+
+              // data-scroll
+              // data-scroll-direction="horizontal"
+              // data-scroll-speed="3"
+            >
+              <em>(Site in development)</em>
+            </h6>
           </section>
         }
       </div>
