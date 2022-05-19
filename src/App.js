@@ -1,6 +1,7 @@
 import React from 'react';
 
-import Navbar from './components/Navbar';
+// import Navbar from './components/Navbar';
+import NavbarCopy from './components/NavbarCopy';
 import Hero from './components/Hero';
 import Contact from './components/Contact';
 import About from './components/About';
@@ -9,6 +10,8 @@ import Projects from './components/Projects';
 import Footer from './components/Footer';
 import Experience from './components/Experience';
 import Interests from './components/Interests';
+import { LocomotiveScrollProvider } from 'react-locomotive-scroll';
+import { useRef } from 'react';
 
 const toTop = document.querySelector('.to-top');
 
@@ -21,12 +24,26 @@ window.onscroll = function () {
 };
 
 function App() {
+  const containerRef = useRef(null);
   return (
-    <>
-      <header>
-        <Navbar />
-      </header>
-      <main>
+    <LocomotiveScrollProvider
+      options={{
+        smooth: true,
+        // ... all available Locomotive Scroll instance options
+      }}
+      watch={
+        [
+          //..all the dependencies you want to watch to update the scroll.
+          //  Basicaly, you would want to watch page/location changes
+          //  For exemple, on Next.js you would want to watch properties like `router.asPath` (you may want to add more criterias if the instance should be update on locations with query parameters)
+        ]
+      }
+      data-scroll
+      containerRef={containerRef}
+    >
+      <header>{/* <Navbar /> */}</header>
+      <main data-scroll-container ref={containerRef}>
+        <NavbarCopy />
         <Hero />
         <About />
         <Skills />
@@ -34,11 +51,11 @@ function App() {
         <Experience />
         <Interests />
         <Contact />
+        <footer>
+          <Footer />
+        </footer>
       </main>
-      <footer>
-        <Footer />
-      </footer>
-    </>
+    </LocomotiveScrollProvider>
   );
 }
 export default App;

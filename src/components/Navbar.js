@@ -2,7 +2,7 @@ import React from 'react';
 
 function Navbar() {
   return (
-    <header>
+    <header data-scroll-section>
       <nav className="navbar-wrapper">
         <ul className="navbar-items">
           <li>

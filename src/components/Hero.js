@@ -2,12 +2,36 @@ import React from 'react';
 
 function Hero() {
   return (
-    <section className="hero-section">
-      <h1 className="name-title fadeInUp1">ASHLEY GYNGELL</h1>
-      <h3 className="role-title fadeInUp2">
-        Junior Full Stack Software Engineer
-      </h3>
-    </section>
+    <>
+      <div data-scroll-section>
+        {
+          <section className="hero-section" id="hero">
+            <h1 className="name-title fadeInUp1">ASHLEY GYNGELL</h1>
+            <a href="#about" data-scroll-to>
+              <img
+                data-scroll
+                data-scroll-direction="horizontal"
+                data-scroll-speed="-3"
+                data-scroll-position="top"
+                data-scroll-target="#about"
+                className=" fadeInUp2"
+                id="ashley-gyngell-avatar"
+                src="https://res.cloudinary.com/dj7e2jadx/image/upload/v1652981470/ashley-gyngell-avatar1.png"
+                alt="ashley-gyngell-avatar"
+              />
+            </a>
+            <h5
+              className="role-title fadeInUp3"
+              // data-scroll
+              // data-scroll-direction="horizontal"
+              // data-scroll-speed="3"
+            >
+              Junior Software Engineer
+            </h5>
+          </section>
+        }
+      </div>
+    </>
   );
 }
 
