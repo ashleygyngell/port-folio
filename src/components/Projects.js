@@ -16,11 +16,7 @@ function Projects() {
                   target="_blank"
                   rel="noreferrer"
                 >
-                  <h2
-                    data-scroll-sticky
-                    data-scroll-target="lyicle"
-                    data-scroll-offset="200"
-                  >
+                  <h2 data-scroll-sticky data-scroll-target="">
                     Lyricle
                   </h2>
                 </a>
@@ -100,57 +96,95 @@ function Projects() {
                 />
               </a>
             </div>
+
+            {/* DISCOVERLY */}
             <div className="discoverly" id="discoverly">
+              <div className="project-text">
+                <a
+                  href="https://discoverly.netlify.app/"
+                  target="_blank"
+                  rel="noreferrer"
+                >
+                  <h2 data-scroll-sticky data-scroll-target="">
+                    Discover.ly
+                  </h2>
+                </a>
+
+                <h3>
+                  Group Project <br /> (10 Days)
+                </h3>
+                <a
+                  href="https://github.com/ashleygyngell/discoverly"
+                  target="_blank"
+                  rel="noreferrer"
+                >
+                  <i className=" fa-brands fa-2x fa-github"></i>
+                </a>
+
+                <div>
+                  An activity logging social site using MERN with CRUD
+                  functionality.
+                </div>
+                <br />
+                <div>
+                  As a group we worked full-stack, including functionality and
+                  styling.
+                </div>
+                <br />
+                <div>
+                  The focus of my branches were to build the registration page
+                  with JWT authentication and create the landing page.
+                </div>
+                <br />
+              </div>
               <a
+                data-scroll
+                data-scroll-direction="vertical"
+                data-scroll-speed="2"
                 href="https://discoverly.netlify.app/"
                 target="_blank"
                 rel="noreferrer"
               >
-                <h3>Discover.ly</h3>
+                <img
+                  id="discoverly-screenshot-ipad2"
+                  src="https://res.cloudinary.com/dj7e2jadx/image/upload/v1653058064/discoverly_screenshot_ipad2.png"
+                  alt="discoverly-screenshot-ipad2"
+                />
               </a>
-              <a
-                href="https://github.com/ashleygyngell/discover.ly"
-                target="_blank"
-                rel="noreferrer"
-              >
-                <i className="fa-brands fa-2x fa-github"></i>
-              </a>
-              <h3>
-                Group Project <br />
-                10 Days
-              </h3>
-              <p>
-                <ul>
-                  <li>
-                    An activity logging social site using MERN with CRUD
-                    functionality.
-                  </li>
-                  <li>
-                    As a group we worked full-stack, including functionality and
-                    styling.
-                  </li>
-                  <li>
-                    The focus of my branches were to build the registration page
-                    with JWT authentication and create the landing page.
-                  </li>
-                </ul>
-              </p>
+
               <a
                 data-scroll
-                data-scroll-direction="horizontal"
+                data-scroll-direction="vertical"
+                data-scroll-speed=".4"
+                data-scroll-position="top"
+                data-scroll-target="#discoverly-screenshot-ipad"
                 href="https://discoverly.netlify.app/"
                 target="_blank"
                 rel="noreferrer"
               >
                 <img
                   id="discoverly-screenshot-ipad"
-                  src="https://res.cloudinary.com/dj7e2jadx/image/upload/v1652865731/discoverly_screenshot_1_fx9cl2.png"
-                  alt="discoverly-screenshot"
-                  width="400"
-                  height="400"
+                  src="https://res.cloudinary.com/dj7e2jadx/image/upload/v1653050567/discoverly_screenshot_ipad1.png"
+                  alt="discoverly-screenshot-ipad"
+                />
+              </a>
+              <a
+                data-scroll
+                data-scroll-direction="vertical"
+                data-scroll-speed="5"
+                href="https://discoverly.netlify.app/"
+                target="_blank"
+                rel="noreferrer"
+              >
+                <img
+                  id="discoverly-screenshot-phone"
+                  src="https://res.cloudinary.com/dj7e2jadx/image/upload/v1653057739/discoverly_screenshot_iphone1.png"
+                  alt="discoverly-screenshot-phone"
                 />
               </a>
             </div>
+
+            {/* CRYPTMOCASH */}
             <div className="cryptmocash">
               <a
                 href="https://cryptmo-cash.netlify.app/"
@@ -197,6 +231,8 @@ function Projects() {
                 />
               </a>
             </div>
+
+            {/* SEIPERMARIOMAN */}
             <div className="seipermarioman">
               <a
                 href="https://ashleygyngell.github.io/SEI-PER-MARIO-MAN/"
