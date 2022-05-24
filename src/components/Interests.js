@@ -6,7 +6,7 @@ function Interests() {
       <div data-scroll-section>
         {
           <section className="interests-wrapper" id="interests">
-            <h2>INTERESTS</h2>
+            <h1>INTERESTS</h1>
             <div className="theatre">
               <p>
                 I love live theatre and music, regularly attending Brixton

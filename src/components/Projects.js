@@ -7,6 +7,7 @@ function Projects() {
         {
           <section className="projects-wrapper" id="projects">
             <h1>PROJECTS</h1>
+            <br />
 
             {/* LYRICLE */}
             <div data-scroll-section className="lyricle" id="lyricle">

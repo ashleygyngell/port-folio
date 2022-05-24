@@ -6,7 +6,7 @@ function Contact() {
       <div data-scroll-section>
         {
           <section className="contact-wrapper" id="contact">
-            <h2>CONTACT</h2>
+            <h1>CONTACT</h1>
             <div className="contact-icons">
               <a href="https://github.com/ashleygyngell">
                 <i className="fa-brands fa-3x fa-github"></i>
