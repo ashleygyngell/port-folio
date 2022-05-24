@@ -30,8 +30,9 @@ function App() {
     <LocomotiveScrollProvider
       options={{
         smooth: true,
-        smoothMobile: true,
-        smoothTablet: true,
+        tablet: {
+          breakpoint: 0, // <---- Fixes The Issue 🎉
+        },
 
         // ... all available Locomotive Scroll instance options
       }}

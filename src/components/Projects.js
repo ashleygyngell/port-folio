@@ -1,12 +1,36 @@
 import React from 'react';
 
+// const lyricletransition = document.querySelector('.test');
+// lyricletransition.onmouseover = function (e) {
+//   document.body.style.background = '#0a0c54';
+//   document.body.style.color = 'white';
+//   document.body.style.transition = 'all 0.2s ease-in';
+// };
+// lyricletransition.onmouseout = function (e) {
+//   document.body.style.background = '#FFFFFF';
+//   document.body.style.color = '#000000';
+//   document.body.style.transition = 'all 0.2s ease-in';
+// };
+
+// const discoverlytransition = document.querySelector('.test2');
+// discoverlytransition.onmouseover = function (e) {
+//   document.body.style.background = '#40915b';
+//   document.body.style.color = 'white';
+//   document.body.style.transition = 'all 0.2s ease-in';
+// };
+// discoverlytransition.onmouseout = function (e) {
+//   document.body.style.background = '#FFFFFF';
+//   document.body.style.color = '#000000';
+//   document.body.style.transition = 'all 0.2s ease-in';
+// };
+
 function Projects() {
   return (
     <>
       <div data-scroll-container>
         {
           <section className="projects-wrapper" id="projects">
-            <h1>PROJECTS</h1>
+            <h1 className="project-title">PROJECTS</h1>
             <br />
 
             {/* LYRICLE */}
@@ -22,7 +46,7 @@ function Projects() {
                   target="_blank"
                   rel="noreferrer"
                 >
-                  <h2>Lyricle</h2>
+                  <h2 className="test">Lyricle</h2>
                 </a>
                 <a
                   href="https://github.com/ashleygyngell/lyricle-frontend"
@@ -110,7 +134,7 @@ function Projects() {
                   target="_blank"
                   rel="noreferrer"
                 >
-                  <h2>Discover.ly</h2>
+                  <h2 className="test2">Discover.ly</h2>
                 </a>
                 <a
                   href="https://github.com/ashleygyngell/discoverly"
