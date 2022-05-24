@@ -10,9 +10,9 @@ function Hero() {
             <a href="#about" data-scroll-to>
               <img
                 data-scroll
-                data-scroll-direction="horizontal"
-                data-scroll-speed="-3"
-                data-scroll-position="top"
+                data-scroll-direction="vertical"
+                data-scroll-speed="1"
+                data-scroll-position="left"
                 data-scroll-target="#about"
                 className=" fadeInUp2"
                 id="ashley-gyngell-avatar"
@@ -28,7 +28,7 @@ function Hero() {
             >
               Junior Software Engineer
             </h5>
-            <h6
+            {/* <h6
               className="role-title fadeInUp4"
 
               // data-scroll
@@ -36,7 +36,7 @@ function Hero() {
               // data-scroll-speed="3"
             >
               <em>(Site in development)</em>
-            </h6>
+            </h6> */}
           </section>
         }
       </div>

@@ -10,19 +10,25 @@ function Interests() {
             <div className="theatre">
               <p>
                 I love live theatre and music, regularly attending Brixton
-                Academy and the West End.
+                Academy &amp; the West End.
               </p>
             </div>
             <div className="sports">
               <p>
-                I enjoy spending my weekends playing a frisbee game called
-                bottle bash and am an avid cyclist.
+                I enjoy spending my weekends kicking a ball about with my
+                friends &amp; playing a frisbee game called bottle bash.
+              </p>
+            </div>
+            <div className="languages">
+              <p>
+                I have recently revisited my love for Spanish by teaching myself
+                on DuoLingo - 200 Days and Counting!
               </p>
             </div>
             <div className="cycling">
               <p>
-                During the first lockdown, I built my own bike from scratch and
-                plan to cycle from London to Amsterdam in 2023.
+                During the first lockdown, I built my own bike from scratch
+                &amp; plan to cycle from London to Amsterdam in 2023.
               </p>
             </div>
           </section>

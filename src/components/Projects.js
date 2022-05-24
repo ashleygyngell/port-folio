@@ -208,7 +208,7 @@ function Projects() {
                 <br />
                 <p>
                   A cryptocurrency conversion site, built using React, with a
-                  Bulma CSS framework and consumes an external API.
+                  Bulma CSS framework &amp; consumes an external API.
                 </p>
               </div>
               <a
@@ -287,23 +287,10 @@ function Projects() {
                 <br />
                 <h1>Solo | Five Days</h1>
                 <br />
-                <p>A grid based game written in JavaScript, CSS and HTML.</p>
+                <p>A grid based game written in JavaScript, CSS &amp; HTML.</p>
               </div>
+
               {/* <a
-                data-scroll
-                data-scroll-direction="vertical"
-                data-scroll-speed="5"
-                href="https://ashleygyngell.github.io/SEI-PER-MARIO-MAN/"
-                target="_blank"
-                rel="noreferrer"
-              >
-                <img
-                  id="seipermarioman-screenshot-mac3"
-                  src="https://res.cloudinary.com/dj7e2jadx/image/upload/v1653170788/seipermarioman-screenshot-mac3.png"
-                  alt="cryptmocash-screenshot-ipad2"
-                />
-              </a>
-              <a
                 data-scroll
                 data-scroll-direction="vertical"
                 data-scroll-speed="2"

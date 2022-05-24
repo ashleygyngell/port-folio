@@ -9,19 +9,19 @@ function Skills() {
             <h1>SKILLS</h1>
             <div className="skills-grid">
               <div>
-                <h2>Languages &amp; Frameworks</h2>
+                <h3>Languages &amp; Frameworks</h3>
                 <p>JavaScript React Python Node Express CSS SASS Bulma HTML</p>
               </div>
               <div>
-                <h2>Databases</h2>
+                <h3>Databases</h3>
                 <p>SQL PostgreSQL MongoDB</p>
               </div>
               <div>
-                <h2>Management &amp; Deployment</h2>
+                <h3>Management &amp; Deployment</h3>
                 <p>Git GitHub REST API's Postman Heroku Netlify</p>
               </div>
               <div>
-                <h2>Methodologies</h2>
+                <h3>Methodologies</h3>
                 <p>
                   Agile-Development KanBan Entity-Relationship-Diagrams
                   Wireframing
