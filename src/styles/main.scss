@@ -10,6 +10,7 @@ body {
   padding: 0px 20px 20px 20px;
   background-color:whitesmoke;
   color: black;
+  height: 100vh
 }
 
 body a {
@@ -34,34 +35,41 @@ body h1 {
 
 .lyricle {
   display: flex;
-  width: 30vw
+  width: 30vw;
+  height: 250vh
 }
 
 .discoverly {
   display: flex;
-  width: 30vw
+  width: 30vw;
+  height: 250vh
 }
 
 .cryptmocash {
   display: flex;
-  width: 30vw
+  width: 30vw;
+  height: 250vh
 }
 
 .seipermarioman {
   display: flex;
-  width: 30vw
+  width: 30vw;
+  height: 250vh
 }
 
 // PROJECT TEXT 
 
+
+
 .project-text {
   padding-right: 45px;
-  margin-bottom: 80vh;
+  margin-bottom: 145vh;
+
 }
 
 .project-text h2 {
  font-size: 10vh;
- padding: 50px 0 10px 0 
+ padding: 50px 0 15px 0 
 }
 
 .project-text h3  {
@@ -75,11 +83,7 @@ font-size: 2vh;
 padding: 0px 
 }
 
-.project-text li {
-  font-size: 2vh;
-  
-  
-}
+
 
 
 
@@ -347,6 +351,7 @@ html {
 // Footer
 .footer {
   text-align: center;
+  margin: 30px;
 }
 
 @keyframes fadeInUp{0% {
@@ -377,10 +382,11 @@ html {
     text-align: center;
 }
 
+
 #lyricle-screenshot-ipad {
   position: absolute ;
-    top: 0px;
-      right: -60vw;
+    top: -15vw;
+      right: -57vw;
       height: 40vw;
       max-height: fit-content;
       width: auto;
@@ -389,9 +395,9 @@ html {
 
 #lyricle-screenshot-mac {
 position: absolute;
-    top: 5vw;
+    top: 45vw;
     right: -20vw;
-    height: 40vw;
+    height: 42vw;
     max-height: fit-content;
     width: auto;
     
@@ -399,18 +405,18 @@ position: absolute;
 
 #lyricle-screenshot-phone {
   position: absolute;
-    top: 1vw;
-    right: -65vw;
-    height: 50vw;
+    top: 40vw;
+    right: -60vw;
+    height: 47vw;
     max-height: fit-content;
     width: auto;
 }
 
 #discoverly-screenshot-ipad {
   position: absolute;
-  top: 30px;
-  right: -60vw;
-  height: 30vw;
+  top: 35vw;
+  right: -52vw;
+  height: 38vw;
   max-height: fit-content;
   width: auto;
 
@@ -418,9 +424,9 @@ position: absolute;
 
 #discoverly-screenshot-ipad2 {
   position: absolute;
-  top: 5vw;
-  right: -60vw;
-  height: 40vw;
+  top: 60vw;
+  right: -62vw;
+  height: 30vw;
   max-height: fit-content;
   width: auto;
 
@@ -428,11 +434,108 @@ position: absolute;
 
 #discoverly-screenshot-phone {
   position: absolute;
-  top: 20vw;
+  top: 50vw;
+  right: -56vw;
+  height: 35vw;
+  max-height: fit-content;
+  width: auto;
+}
+
+#cryptmocash-screenshot-ipad {
+  position: absolute;
+  top: 40vh;
+  right: -60vw;
+  height: 30vw;
+  max-height: fit-content;
+  width: auto;
+
+}
+
+#cryptmocash-screenshot-ipad2 {
+  position: absolute;
+  top: 35vw;
+  right: -58vw;
+  height: 40vw;
+  max-height: fit-content;
+  width: auto;
+
+}
+
+#cryptmocash-screenshot-iphone {
+  position: absolute;
+  top: -10vw;
   right: -56vw;
   height: 38vw;
   max-height: fit-content;
   width: auto;
 }
 
+#seipermarioman-screenshot-mac1 {
+  position: absolute;
+  top: 50vw;
+right: -62vw;
+  height: 35vw;
+  max-height: fit-content;
+  width: auto;
+}
+
+#lyricle-screenshot-1 {
+  position: absolute;
+  top: -20vw;
+  right: 35vw;
+  height: 40vw;
+  
+  width: auto;}
+
+#lyricle-screenshot-2 {
+  position: absolute;
+    top: 40vh;
+    right: 0vw;
+    height: 35vw;
+    max-height: fit-content;
+    width: auto;
+}
+
+#lyricle-screenshot-3 {
+  position: absolute;
+    top: 10vw;
+    right: -5vw;
+    height: 40vw;
+    max-height: fit-content;
+    width: auto;
+}
+
+
+.image-pop {
+  height: 100vh
+}
+.image-pop1 {
+  height: 100vh
+}
+
+
+
+.project-text p {
+width: 30vw
+
+}
+
+.project-text h1 {
+  text-transform: uppercase;
+  display: inline-block;
+}
+
+
+.project-text h2:hover {
+  color: grey;
+}
+
+.project-text h2 {
+  color: black;
+  text-transform: uppercase;
+  text-decoration: none;
+ 
+  display: inline-block;
+  position: relative;
+}
 

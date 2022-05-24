@@ -1,35 +1,83 @@
-import React from 'react'
+import React from 'react';
 
 function ProjectsCopy() {
-  return ( <section class="c-section -fixed" data-scroll-section data-persistent>
-                <div class="o-container" id="fixed-elements">
-                    <div class="o-layout">
-                        <div class="o-layout_item u-2/5@from-medium">
-                            <div class="c-section_infos -padding" data-scroll data-scroll-sticky data-scroll-target="#fixed-elements">
-                                <div class="c-section_infos_inner" data-scroll data-scroll-offset="200">
-                                    <h3>
-                                        04. <br>
-                                        Fixed elements
-                                    </h3>
-                                    <div class="c-sections_infos_text u-text">
-                                        <p>
-                                            Create slides that stick and untick to the viewport while scrolling through.
-                                        </p>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="o-layout_item u-3/5@from-medium">
-                            <div class="c-fixed_wrapper" data-scroll data-scroll-call="dynamicBackground" data-scroll-repeat>
-                                <div class="c-fixed_target" id="fixed-target"></div>
-                                <div class="c-fixed" data-scroll data-scroll-sticky data-scroll-target="#fixed-target" style="background-image:url('dist/images/locomotive04.jpg')"></div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </section>
+  return (
+    <>
+      <div data-scroll-container>
+        <section class="project-text" data-scroll-section id="pin">
+          <div
+            class="image-pop1"
+            id="one"
+            data-scroll
+            data-scroll-sticky
+            data-scroll-target="#pin"
+            data-scroll-speed="3"
+          >
+            <h2>Lyricle</h2>
+            <h1>
+              Solo | Seven days{' '}
+              <a
+                href="https://github.com/ashleygyngell/lyricle-frontend"
+                target="_blank"
+                rel="noreferrer"
+              >
+                <i className=" fa-brands fa-3x fa-github"></i>
+              </a>
+            </h1>
+            <div>
+              <p>
+                A spin-off of the viral Wordle game, rooted in Python, Django
+                and a PostgreSQL database.
+              </p>
+            </div>
+            <br />
+            <div>
+              <p>
+                Users are given clues of song lyrics to guess the title of the
+                song.
+              </p>
+            </div>
+            <br />
+            <div>
+              <p>
+                Features a register and login feature with the ability to create
+                or join leagues with friends.
+              </p>
+            </div>
+            <br />
+            <div>
+              <p>
+                Consumes an external API, demanding a wealth of string
+                manipulation and automation.
+              </p>
+            </div>
+          </div>
 
-  )
+          <div class="image-pop" id="three" data-scroll data-scroll-speed="-5">
+            <img
+              id="lyricle-screenshot-2"
+              src="https://res.cloudinary.com/dj7e2jadx/image/upload/v1652961675/lyricle_screenshot_ipad.png"
+              alt=""
+            />
+          </div>
+          <div class="image-pop" id="two" data-scroll data-scroll-speed=".3">
+            <img
+              id="lyricle-screenshot-1"
+              src="https://res.cloudinary.com/dj7e2jadx/image/upload/v1652961642/lyricle_screenshot_iphone.png"
+              alt=""
+            />
+          </div>
+          <div class="image-pop" id="four" data-scroll data-scroll-speed="-8">
+            <img
+              id="lyricle-screenshot-3"
+              src="https://res.cloudinary.com/dj7e2jadx/image/upload/v1652961642/lyricle_screenshot_phone.png"
+              alt=""
+            />
+          </div>
+        </section>
+      </div>
+    </>
+  );
 }
 
-export default ProjectsCopy
+export default ProjectsCopy;

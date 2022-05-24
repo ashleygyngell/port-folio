@@ -6,8 +6,8 @@ function Footer() {
       <div data-scroll-section>
         {
           <section className="footer">
-            <p>ASHLEY GYNGELL</p>
-            <p>&copy; 2022</p>
+            <p>ASHLEY GYNGELL &copy; 2022</p>
+            <p></p>
           </section>
         }
       </div>

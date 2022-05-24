@@ -7,7 +7,7 @@ import Contact from './components/Contact';
 import About from './components/About';
 import Skills from './components/Skills';
 import Projects from './components/Projects';
-
+// import ProjectsCopy1 from './components/ProjectsCopy1';
 import Footer from './components/Footer';
 import Experience from './components/Experience';
 import Interests from './components/Interests';
@@ -30,6 +30,9 @@ function App() {
     <LocomotiveScrollProvider
       options={{
         smooth: true,
+        smoothMobile: true,
+        smoothTablet: true,
+
         // ... all available Locomotive Scroll instance options
       }}
       watch={
@@ -52,6 +55,7 @@ function App() {
         <Experience />
         <Interests />
         <Contact />
+        {/* <ProjectsCopy1 /> */}
         <footer>
           <Footer />
         </footer>
