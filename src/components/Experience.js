@@ -11,7 +11,14 @@ function Experience() {
             <br />
             <div className="experience-text">
               <div className="generalassembly">
-                <h2>General Assembly</h2>
+                <div className="ga-header">
+                  <img
+                    id="experience-logo"
+                    src="https://res.cloudinary.com/dj7e2jadx/image/upload/v1653511975/general-assembly-logo.png"
+                    alt="ga-logo"
+                  />
+                  <h2>General Assembly</h2>
+                </div>
                 <h4>Jan '22 - Apr '22</h4>
                 <p>
                   12 Week, <strong>(Full Time)</strong> Software Engineering
@@ -38,6 +45,11 @@ function Experience() {
               </div>
 
               <div className="socialfiltar">
+                <img
+                  id="experience-logo"
+                  src="https://res.cloudinary.com/dj7e2jadx/image/upload/v1653512101/socialfiiltar-logo.png"
+                  alt="socialfilt.ar-logo"
+                />
                 <h2>Socialfilt.ar</h2>
                 <h4>May '20 - May '21</h4>
 
@@ -50,7 +62,12 @@ function Experience() {
               </div>
 
               <div className="actor">
-                <h2>Professional Actor</h2>
+                <img
+                  id="experience-logo"
+                  src="https://res.cloudinary.com/dj7e2jadx/image/upload/v1653514333/bbc-logo.png"
+                  alt="bbc-logo"
+                />
+                <h2>Actor</h2>
                 <h4>Jun '16 - Mar '20</h4>
 
                 <br />
