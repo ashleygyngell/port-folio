@@ -5,7 +5,7 @@ function About() {
     <>
       <div data-scroll-section>
         {
-          <section className="about-section" id="about">
+          <section className="about-wrapper" id="about">
             <h1>ABOUT</h1>
             <div className="brand-statement">
               <p>

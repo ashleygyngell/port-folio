@@ -5,7 +5,7 @@ function Navbar() {
     <>
       <div data-scroll-section>
         {
-          <section className="navbar-wrapper fadeInUp4" id="navbar">
+          <section className="navbar-wrapper fadeInUp4" id="navbar-start">
             <ul className="navbar-items">
               <li>
                 <a href="#about" data-scroll-to>

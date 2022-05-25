@@ -20,14 +20,14 @@ function Hero() {
                 alt="ashley-gyngell-avatar"
               />
             </a>
-            <h5
+            <h2
               className="role-title fadeInUp3"
               // data-scroll
               // data-scroll-direction="horizontal"
               // data-scroll-speed="3"
             >
               Junior Software Engineer
-            </h5>
+            </h2>
             {/* <h6
               className="role-title fadeInUp4"
 

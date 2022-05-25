@@ -29,6 +29,11 @@ function Navbar() {
           </li>
         </ul>
       </nav>
+      <div class="to-top hidden" data-scroll-section>
+        <a href="#navbar" data-scroll-to>
+          <i class="fa-solid fa-chevron-up"></i>
+        </a>
+      </div>
     </header>
   );
 }

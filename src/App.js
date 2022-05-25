@@ -1,28 +1,17 @@
 import React from 'react';
 
-// import Navbar from './components/Navbar';
 import NavbarCopy from './components/NavbarCopy';
 import Hero from './components/Hero';
 import Contact from './components/Contact';
 import About from './components/About';
 import Skills from './components/Skills';
 import Projects from './components/Projects';
-// import ProjectsCopy1 from './components/ProjectsCopy1';
+
 import Footer from './components/Footer';
 import Experience from './components/Experience';
 import Interests from './components/Interests';
 import { LocomotiveScrollProvider } from 'react-locomotive-scroll';
 import { useRef } from 'react';
-
-const toTop = document.querySelector('.to-top');
-
-window.onscroll = function () {
-  if (window.scrollY >= 500) {
-    toTop.style.opacity = '1';
-  } else {
-    toTop.style.opacity = '0';
-  }
-};
 
 function App() {
   const containerRef = useRef(null);
@@ -56,7 +45,7 @@ function App() {
         <Experience />
         <Interests />
         <Contact />
-        {/* <ProjectsCopy1 /> */}
+
         <footer>
           <Footer />
         </footer>

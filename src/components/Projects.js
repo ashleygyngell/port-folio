@@ -1,126 +1,156 @@
 import React from 'react';
 
-// const lyricletransition = document.querySelector('.test');
-// lyricletransition.onmouseover = function (e) {
-//   document.body.style.background = '#0a0c54';
-//   document.body.style.color = 'white';
-//   document.body.style.transition = 'all 0.2s ease-in';
-// };
-// lyricletransition.onmouseout = function (e) {
-//   document.body.style.background = '#FFFFFF';
-//   document.body.style.color = '#000000';
-//   document.body.style.transition = 'all 0.2s ease-in';
-// };
+window.onload = function () {
+  const lyricleTransition2 = document.querySelector('.lyricle-title');
+  lyricleTransition2.onmouseover = function (e) {
+    document.body.style.background = '#0a0c54';
+    document.body.style.color = 'white';
+    document.body.style.transition = 'all 0.5s ease-in';
+  };
+  lyricleTransition2.onmouseout = function (e) {
+    document.body.style.background = '#FFFFFF';
+    document.body.style.color = '#000000';
+    document.body.style.transition = 'all 0.3s ease-in';
+  };
 
-// const discoverlytransition = document.querySelector('.test2');
-// discoverlytransition.onmouseover = function (e) {
-//   document.body.style.background = '#40915b';
-//   document.body.style.color = 'white';
-//   document.body.style.transition = 'all 0.2s ease-in';
-// };
-// discoverlytransition.onmouseout = function (e) {
-//   document.body.style.background = '#FFFFFF';
-//   document.body.style.color = '#000000';
-//   document.body.style.transition = 'all 0.2s ease-in';
-// };
+  const discoverlyTransition = document.querySelector('.discoverly-title');
+  discoverlyTransition.onmouseover = function (e) {
+    document.body.style.background = '#40915b';
+    document.body.style.color = 'white';
+    document.body.style.transition = 'all 0.5s ease-in';
+  };
+  discoverlyTransition.onmouseout = function (e) {
+    document.body.style.background = '#FFFFFF';
+    document.body.style.color = '#000000';
+    document.body.style.transition = 'all 0.3s ease-in';
+  };
 
+  const cryptmocashTransition = document.querySelector('.cryptmocash-title');
+  cryptmocashTransition.onmouseover = function (e) {
+    document.body.style.background = '#00d0b1';
+    document.body.style.color = 'white';
+    document.body.style.transition = 'all 0.5s ease-in';
+  };
+  cryptmocashTransition.onmouseout = function (e) {
+    document.body.style.background = '#FFFFFF';
+    document.body.style.color = '#000000';
+    document.body.style.transition = 'all 0.3s ease-in';
+  };
+
+  const seipermariomanTransition = document.querySelector(
+    '.seipermarioman-title'
+  );
+  seipermariomanTransition.onmouseover = function (e) {
+    document.body.style.background = ' #5e95fb';
+    document.body.style.color = 'white';
+    document.body.style.transition = 'all 0.5s ease-in';
+  };
+  seipermariomanTransition.onmouseout = function (e) {
+    document.body.style.background = '#FFFFFF';
+    document.body.style.color = '#000000';
+    document.body.style.transition = 'all 0.3s ease-in';
+  };
+};
 function Projects() {
   return (
     <>
       <div data-scroll-container>
         {
           <section className="projects-wrapper" id="projects">
-            <h1 className="project-title">PROJECTS</h1>
             <br />
 
             {/* LYRICLE */}
-            <div data-scroll-section className="lyricle" id="lyricle">
-              <div
-                className="project-text"
-                data-scroll
-                data-scroll-sticky
-                data-scroll-target="#lyricle"
-              >
+            <section className="lyricle-wrapper">
+              <div data-scroll-section className="lyricle " id="lyricle">
+                <div
+                  className="project-text"
+                  data-scroll
+                  data-scroll-sticky
+                  data-scroll-target="#lyricle"
+                >
+                  <a
+                    href="https://www.playlyricle.com"
+                    target="_blank"
+                    rel="noreferrer"
+                  >
+                    <h2 className="lyricle-title">Lyricle</h2>
+                  </a>
+                  <br />
+                  <h1> Solo | Seven days</h1>
+                  <br />
+                  <p>
+                    A spin-off of the viral 'Wordle' game, rooted in Python,
+                    Django &amp; an PostgreSQL database.
+                  </p>
+                  <br />
+                  <p>
+                    Features register &amp; login functionality, with users able
+                    to create &amp; join leagues.
+                  </p>
+                  <br />
+                  <p>
+                    Consumes an external API, demanding a wealth of string
+                    manipulation &amp; automation.
+                  </p>
+                  <br />
+                  <br />
+                  <div className="project-github">
+                    <a
+                      href="https://github.com/ashleygyngell/lyricle-frontend"
+                      target="_blank"
+                      rel="noreferrer"
+                    >
+                      <i className=" fa-brands fa-4x fa-github"></i>
+                    </a>
+                  </div>
+                </div>
+
                 <a
+                  data-scroll
+                  data-scroll-direction="vertical"
+                  data-scroll-speed="-4"
+                  data-scroll-position="top"
+                  data-scroll-target="#lyricle-screenshot-ipad"
                   href="https://www.playlyricle.com"
                   target="_blank"
                   rel="noreferrer"
                 >
-                  <h2 className="test">Lyricle</h2>
+                  <img
+                    id="lyricle-screenshot-ipad"
+                    src="https://res.cloudinary.com/dj7e2jadx/image/upload/v1652961675/lyricle_screenshot_ipad.png"
+                    alt="lyricle-screenshot-ipad"
+                  />
                 </a>
                 <a
-                  href="https://github.com/ashleygyngell/lyricle-frontend"
+                  data-scroll
+                  data-scroll-direction="vertical"
+                  data-scroll-speed="-3"
+                  href="https://www.playlyricle.com"
                   target="_blank"
                   rel="noreferrer"
                 >
-                  <i className=" fa-brands fa-4x fa-github"></i>
+                  <img
+                    id="lyricle-screenshot-mac"
+                    src="https://res.cloudinary.com/dj7e2jadx/image/upload/v1652961642/lyricle_screenshot_iphone.png"
+                    alt="lyricle-screenshot-2"
+                  />
                 </a>
-                <br />
-                <h1> Solo | Seven days</h1>
-                <br />
-                <p>
-                  A spin-off of the viral 'Wordle' game, rooted in Python,
-                  Django &amp; an PostgreSQL database.
-                </p>
-
-                <p>
-                  Features register &amp; login functionality, with users able
-                  to create &amp; join leagues.
-                </p>
-
-                <p>
-                  Consumes an external API, demanding a wealth of string
-                  manipulation &amp; automation.
-                </p>
-
-                <br />
+                <a
+                  data-scroll
+                  data-scroll-direction="vertical"
+                  data-scroll-speed="-2"
+                  href="https://www.playlyricle.com"
+                  target="_blank"
+                  rel="noreferrer"
+                >
+                  <img
+                    id="lyricle-screenshot-phone"
+                    src="https://res.cloudinary.com/dj7e2jadx/image/upload/v1652961642/lyricle_screenshot_phone.png"
+                    alt="lyricle-screenshot-phone"
+                  />
+                </a>
               </div>
-              <a
-                data-scroll
-                data-scroll-direction="vertical"
-                data-scroll-speed="-4"
-                data-scroll-position="top"
-                data-scroll-target="#lyricle-screenshot-ipad"
-                href="https://www.playlyricle.com"
-                target="_blank"
-                rel="noreferrer"
-              >
-                <img
-                  id="lyricle-screenshot-ipad"
-                  src="https://res.cloudinary.com/dj7e2jadx/image/upload/v1652961675/lyricle_screenshot_ipad.png"
-                  alt="lyricle-screenshot-ipad"
-                />
-              </a>
-              <a
-                data-scroll
-                data-scroll-direction="vertical"
-                data-scroll-speed="-3"
-                href="https://www.playlyricle.com"
-                target="_blank"
-                rel="noreferrer"
-              >
-                <img
-                  id="lyricle-screenshot-mac"
-                  src="https://res.cloudinary.com/dj7e2jadx/image/upload/v1652961642/lyricle_screenshot_iphone.png"
-                  alt="lyricle-screenshot-2"
-                />
-              </a>
-              <a
-                data-scroll
-                data-scroll-direction="vertical"
-                data-scroll-speed="-2"
-                href="https://www.playlyricle.com"
-                target="_blank"
-                rel="noreferrer"
-              >
-                <img
-                  id="lyricle-screenshot-phone"
-                  src="https://res.cloudinary.com/dj7e2jadx/image/upload/v1652961642/lyricle_screenshot_phone.png"
-                  alt="lyricle-screenshot-phone"
-                />
-              </a>
-            </div>
-
+            </section>
             {/* DISCOVERLY */}
             <div data-scroll-section className="discoverly" id="discoverly">
               <div
@@ -134,14 +164,7 @@ function Projects() {
                   target="_blank"
                   rel="noreferrer"
                 >
-                  <h2 className="test2">Discover.ly</h2>
-                </a>
-                <a
-                  href="https://github.com/ashleygyngell/discoverly"
-                  target="_blank"
-                  rel="noreferrer"
-                >
-                  <i className=" fa-brands fa-4x fa-github"></i>
+                  <h2 className="discoverly-title">Discover.ly</h2>
                 </a>
                 <br />
                 <h1>Group | Ten days</h1>
@@ -151,19 +174,26 @@ function Projects() {
                   functionality. Users can discover &amp; share locations for
                   outdoor activities.
                 </p>
-
+                <br />
                 <p>
                   As a group we worked full-stack. My responsibilities were JWT
                   authentication, response status codes &amp; the
                   registration/login pages.
                 </p>
-
-                <br />
+                <br /> <br />
+                <a
+                  className="project-github"
+                  href="https://github.com/ashleygyngell/discoverly"
+                  target="_blank"
+                  rel="noreferrer"
+                >
+                  <i className=" fa-brands fa-4x fa-github"></i>
+                </a>
               </div>
               <a
                 data-scroll
                 data-scroll-direction="vertical"
-                data-scroll-speed="-6"
+                data-scroll-speed="-3"
                 data-scroll-target="#discoverly-screenshot-ipad"
                 href="https://discoverly.netlify.app/"
                 target="_blank"
@@ -219,14 +249,7 @@ function Projects() {
                   target="_blank"
                   rel="noreferrer"
                 >
-                  <h2>CryptMo CAsh</h2>
-                  <a
-                    href="https://github.com/ashleygyngell/CryptMo-CAsh"
-                    target="_blank"
-                    rel="noreferrer"
-                  >
-                    <i className=" fa-brands fa-4x fa-github"></i>
-                  </a>
+                  <h2 className="cryptmocash-title">CryptMo CAsh</h2>
                 </a>
                 <br />
                 <h1>Pair | Two Days</h1>
@@ -235,6 +258,16 @@ function Projects() {
                   A cryptocurrency conversion site, built using React, with a
                   Bulma CSS framework &amp; consumes an external API.
                 </p>
+                <br />
+                <br />
+                <a
+                  className="project-github"
+                  href="https://github.com/ashleygyngell/CryptMo-CAsh"
+                  target="_blank"
+                  rel="noreferrer"
+                >
+                  <i className=" fa-brands fa-4x fa-github"></i>
+                </a>
               </div>
               <a
                 data-scroll
@@ -300,40 +333,28 @@ function Projects() {
                   target="_blank"
                   rel="noreferrer"
                 >
-                  <h2>'SEI'per Mario Man</h2>
+                  <h2 className="seipermarioman-title">'SEI'per Mario-Man</h2>
                 </a>
+
+                <br />
+                <h1>Solo | Five Days</h1>
+                <br />
+                <p>A grid based game written in JavaScript, CSS &amp; HTML.</p>
+                <br />
+                <br />
                 <a
+                  className="project-github"
                   href="https://github.com/ashleygyngell/SEI-PER-MARIO-MAN"
                   target="_blank"
                   rel="noreferrer"
                 >
                   <i className=" fa-brands fa-4x fa-github"></i>
                 </a>
-                <br />
-                <h1>Solo | Five Days</h1>
-                <br />
-                <p>A grid based game written in JavaScript, CSS &amp; HTML.</p>
               </div>
-
-              {/* <a
-                data-scroll
-                data-scroll-direction="vertical"
-                data-scroll-speed="2"
-                href="https://ashleygyngell.github.io/SEI-PER-MARIO-MAN/"
-                target="_blank"
-                rel="noreferrer"
-              >
-                <img
-                  id="seipermarioman-screenshot-mac2"
-                  src="https://res.cloudinary.com/dj7e2jadx/image/upload/v1653170501/seipermarioman-screenshot-mac2.png"
-                  alt="seipermarioman-screenshot-mac2"
-                />
-              </a> */}
-
               <a
                 data-scroll
                 data-scroll-direction="vertical"
-                data-scroll-speed="-4"
+                data-scroll-speed="-3.5"
                 data-scroll-target="#seipermarioman"
                 href="https://ashleygyngell.github.io/SEI-PER-MARIO-MAN/"
                 target="_blank"
@@ -341,8 +362,22 @@ function Projects() {
               >
                 <img
                   id="seipermarioman-screenshot-mac1"
-                  src="https://res.cloudinary.com/dj7e2jadx/image/upload/v1653167094/seipermarioman-screenshot-mac.png"
+                  src="https://res.cloudinary.com/dj7e2jadx/image/upload/v1653170501/seipermarioman-screenshot-mac2.png"
                   alt="seipermarioman-screenshot-mac1"
+                />
+              </a>
+              <a
+                data-scroll
+                data-scroll-direction="vertical"
+                data-scroll-speed="-4"
+                href="https://ashleygyngell.github.io/SEI-PER-MARIO-MAN/"
+                target="_blank"
+                rel="noreferrer"
+              >
+                <img
+                  id="seipermarioman-screenshot-mac2"
+                  src="https://res.cloudinary.com/dj7e2jadx/image/upload/v1653167094/seipermarioman-screenshot-mac.png"
+                  alt="seipermarioman-screenshot-mac2"
                 />
               </a>
             </div>
