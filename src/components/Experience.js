@@ -25,22 +25,21 @@ function Experience() {
                   Bootcamp.
                 </p>
                 <p>
-                  Furthered my programming knowledge especially in
-                  <strong> JavaScript, React.js</strong> &amp;{' '}
-                  <strong>MERN</strong>.
+                  Furthered my programming knowledge, especially with
+                  <strong> JavaScript, React.js,</strong>&amp; external
+                  <strong> APIs</strong>.
                 </p>
 
                 <p>
-                  Stored data in<strong> SQL</strong> &amp;{' '}
+                  Modeled &amp; Stored data in<strong> SQL</strong> &amp;{' '}
                   <strong>noSQL</strong> databases.
                 </p>
+
+                <p>Four full-stack apps built individually &amp; paired.</p>
+
                 <p>
-                  Consumed external <strong> APIs.</strong>
-                  <p></p>Built four full-stack apps individually &amp; paired.
-                </p>
-                <p>
-                  Involved daily stand-ups, online lessons, labs, paired-coding
-                  &amp; daily homeworks
+                  Daily stand-ups, online lessons, labs, paired-coding &amp;
+                  daily homeworks
                 </p>
               </div>
 
