@@ -498,7 +498,7 @@ color: #0AD0B2;
   padding: 0 7vh;
   display: grid;
   justify-content: center;
-  gap: 10vh;
+  gap: 12vh;
   grid-template-columns: 30% 30% 30%;
   text-align: center;
 }
@@ -506,20 +506,17 @@ color: #0AD0B2;
 
 
 .experience-text h2 {
+  white-space: nowrap;
   padding-top: 2vh;
-  font-size: 4.8vh;
+  font-size: 4.4vh;
   text-transform: uppercase;
 }
 
-.experience-text h3 {
-  font-size: 2vh;
-  text-transform: uppercase;
-}
 
 .experience-text h4 {
   padding-bottom: 5vh;
   font-size: 2.6vh;
-  font-weight: 200;
+  font-weight: 100;
   text-transform: uppercase;
 }
 

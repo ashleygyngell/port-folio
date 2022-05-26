@@ -52,7 +52,6 @@ function Experience() {
                 <h2>Socialfilt.ar</h2>
                 <h4>May '20 - May '21</h4>
 
-                <br />
                 <p>
                   Created an augemented reality company utilising Meta&apos;s
                   SparkAR studio.
@@ -69,7 +68,6 @@ function Experience() {
                 <h2>Actor</h2>
                 <h4>Jun '16 - Mar '20</h4>
 
-                <br />
                 <p>
                   Work includes: BBC&apos;s War &amp; Peace, Mastercard, Orange,
                   Mars, Arts Theatre, Arcola Theatre.
