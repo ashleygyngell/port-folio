@@ -46,6 +46,20 @@ body h3 {
 
 // PROJECT CONTAINERS
 
+.chat {
+  display: flex;
+  width: 30vw;
+  height: 250vh;
+  margin: 5vh;
+}
+
+.chat-text {
+  display: flex;
+  width: 30vw;
+  height: 250vh;
+
+}
+
 .lyricle {
   display: flex;
   width: 30vw;
@@ -53,16 +67,12 @@ body h3 {
   margin: 5vh;
 }
 
-
-
 .lyricle-text{
   display: flex;
   width: 30vw;
   height: 250vh;
   
 }
-
-
 
 .discoverly {
   display: flex;
@@ -90,7 +100,6 @@ body h3 {
   height: 250vh
 }
 
-
 .seipermarioman {
   display: flex;
   width: 30vw;
@@ -103,6 +112,8 @@ body h3 {
   width: 30vw;
   height: 250vh
 }
+
+
 // PROJECT TEXT 
 
 .project-title {
@@ -119,8 +130,6 @@ body h3 {
 }
 }
 
-
-
 .project-text h2:hover {
   color:white;
   transition: 1s;
@@ -129,18 +138,11 @@ body h3 {
   padding: 50px 0 15px 0
 }
 
-
-
-
-
-
-
 // .navbar-wrapper {
 //   display: flex;
 //   justify-content: center;
 //   position: relative
 // }
-
 
 section {
   padding: 40px 0 0 0;
@@ -614,13 +616,42 @@ color: #0AD0B2;
   }
 }
 
+// Images
 
+#chat-screenshot-ipad {
+  position: absolute;
+  top: -25vw;
+  right: -57vw;
+  height: 32vw;
+  max-height: fit-content;
+  width: auto;
+
+}
+
+#chat-screenshot-mac {
+  position: absolute;
+  top: 40vw;
+  right: -23vw;
+  height: 45vw;
+  max-height: fit-content;
+  width: auto;
+
+}
+
+#chat-screenshot-phone {
+  position: absolute;
+  top: 40vw;
+  right: -63vw;
+  height: 37vw;
+  max-height: fit-content;
+  width: auto;
+}
 
 
 
 #lyricle-screenshot-ipad {
   position: absolute ;
-    top: -15vw;
+    top: -50vw;
       right: -59vw;
       height: 40vw;
       max-height: fit-content;
@@ -630,7 +661,7 @@ color: #0AD0B2;
 
 #lyricle-screenshot-mac {
 position: absolute;
-    top: 45vw;
+    top: 35vw;
     right: -22vw;
     height: 42vw;
     max-height: fit-content;

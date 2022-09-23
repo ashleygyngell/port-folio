@@ -1,6 +1,18 @@
 import React from 'react';
 
 window.onload = function () {
+  const chatTransition = document.querySelector('.chat-title');
+  chatTransition.onmouseover = function (e) {
+    document.body.style.background = '#035BFA';
+    document.body.style.color = 'white';
+    document.body.style.transition = 'all 0.5s ease-in';
+  };
+  chatTransition.onmouseout = function (e) {
+    document.body.style.background = '#FFFFFF';
+    document.body.style.color = '#000000';
+    document.body.style.transition = 'all 0.3s ease-in';
+  };
+
   const lyricleTransition2 = document.querySelector('.lyricle-title');
   lyricleTransition2.onmouseover = function (e) {
     document.body.style.background = '#0a0c54';
@@ -58,6 +70,97 @@ function Projects() {
         {
           <section className="projects-wrapper" id="projects">
             <br />
+
+            {/* CHAT */}
+            <section className="chat-wrapper">
+              <div data-scroll-section className="chat " id="chat">
+                <div
+                  className="project-text"
+                  data-scroll
+                  data-scroll-sticky
+                  data-scroll-target="#chat"
+                >
+                  <a
+                    href="https://chatwithchatapp.netlify.app/"
+                    target="_blank"
+                    rel="noreferrer"
+                  >
+                    <h2 className="chat-title">Chat</h2>
+                  </a>
+                  <br />
+                  <h1> Solo | Ten days</h1>
+                  <br />
+                  <p>A React based chat application.</p>
+                  <br />
+                  <p>
+                    Backend written in Python using Django &amp; an PostgreSQL
+                    database.
+                  </p>
+                  <br />
+                  <p>
+                    Users are able to create accounts, send/recieve chats &amp;
+                    join chatrooms.
+                  </p>
+
+                  <br />
+                  <br />
+                  <div className="project-github">
+                    <a
+                      href="https://github.com/ashleygyngell/chatapp-frontend"
+                      target="_blank"
+                      rel="noreferrer"
+                    >
+                      <i className=" fa-brands fa-4x fa-github"></i>
+                    </a>
+                  </div>
+                </div>
+
+                <a
+                  data-scroll
+                  data-scroll-direction="vertical"
+                  data-scroll-speed="-5"
+                  data-scroll-position="top"
+                  data-scroll-target="#chat-screenshot-ipad"
+                  href="https://chatwithchatapp.netlify.app/"
+                  target="_blank"
+                  rel="noreferrer"
+                >
+                  <img
+                    id="chat-screenshot-ipad"
+                    src="https://res.cloudinary.com/dj7e2jadx/image/upload/v1663942323/Tablet_Example_Chat.png"
+                    alt="chat-screenshot-ipad"
+                  />
+                </a>
+                <a
+                  data-scroll
+                  data-scroll-direction="vertical"
+                  data-scroll-speed="-2"
+                  href="https://chatwithchatapp.netlify.app/"
+                  target="_blank"
+                  rel="noreferrer"
+                >
+                  <img
+                    id="chat-screenshot-phone"
+                    src="https://res.cloudinary.com/dj7e2jadx/image/upload/v1663942362/Copy_of_Device_Iphone_Fashion_App_Instagram_post_2_x0joxv.png"
+                    alt="chat-screenshot-phone"
+                  />
+                </a>
+                <a
+                  data-scroll
+                  data-scroll-direction="vertical"
+                  data-scroll-speed="-4"
+                  href="https://chatwithchatapp.netlify.app/"
+                  target="_blank"
+                  rel="noreferrer"
+                >
+                  <img
+                    id="chat-screenshot-mac"
+                    src="https://res.cloudinary.com/dj7e2jadx/image/upload/v1663942253/Phone_Example1_Chat.png"
+                    alt="chat-screenshot-2"
+                  />
+                </a>
+              </div>
+            </section>
 
             {/* LYRICLE */}
             <section className="lyricle-wrapper">
