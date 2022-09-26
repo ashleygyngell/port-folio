@@ -1,5 +1,7 @@
 import React from 'react';
 
+// Updated on 26 Sept 2022
+
 window.onload = function () {
   const chatTransition = document.querySelector('.chat-title');
   chatTransition.onmouseover = function (e) {
