@@ -24,124 +24,109 @@ function Skills() {
               <div>
                 <div className="skill">
                   <i className="devicon-html5-plain"></i>
+                  <p className="">HTML</p>
                 </div>
-                <p className="">HTML</p>
               </div>
               <div>
                 <div className="skill">
                   <i className="devicon-css3-plain"></i>
+                  <p>CSS</p>
                 </div>
-                <p>CSS</p>
               </div>
               <div>
                 <div className="skill">
-                  <i className="devicon-javascript-plain"></i>{' '}
+                  <i className="devicon-javascript-plain"></i> <p>JavaScript</p>{' '}
                 </div>
-                <p>JavaScript</p>
               </div>
               <div>
                 <div className="skill">
-                  <i className="devicon-react-original"></i>{' '}
+                  <i class="devicon-typescript-plain"></i>
+                  <p>TypeScript</p>{' '}
                 </div>
-                <p>React</p>
               </div>
               <div>
                 <div className="skill">
-                  <i className="devicon-python-plain"></i>{' '}
+                  <i className="devicon-react-original"></i> <p>React</p>
                 </div>
-                <p>Python</p>
               </div>
               <div>
                 <div className="skill">
-                  <i className="devicon-django-plain"></i>{' '}
+                  <i className="devicon-python-plain"></i> <p>Python</p>
                 </div>
-                <p>Django</p>
               </div>
               <div>
                 <div className="skill">
-                  <i className="devicon-postgresql-plain"></i>{' '}
+                  <i className="devicon-django-plain"></i> <p>Django</p>{' '}
                 </div>
-                <p>PostgreSQL</p>
               </div>
               <div>
                 <div className="skill">
-                  <i className="devicon-nodejs-plain"></i>{' '}
+                  <i className="devicon-postgresql-plain"></i> <p>PostgreSQL</p>{' '}
                 </div>
-                <p>Node.js</p>
               </div>
               <div>
                 <div className="skill">
-                  <i className="devicon-npm-original-wordmark"></i>{' '}
+                  <i className="devicon-nodejs-plain"></i> <p>Node.js</p>{' '}
                 </div>
-                <p>npm</p>
               </div>
               <div>
                 <div className="skill">
-                  <i className="devicon-express-original"></i>{' '}
+                  <i className="devicon-npm-original-wordmark"></i> <p>npm</p>
                 </div>
-                <p>Express</p>
               </div>
               <div>
                 <div className="skill">
-                  <i className="devicon-mongodb-plain"></i>{' '}
+                  <i className="devicon-express-original"></i> <p>Express</p>{' '}
                 </div>
-                <p>MongoDB</p>
               </div>
               <div>
                 <div className="skill">
-                  <i className="devicon-github-original"></i>{' '}
+                  <i className="devicon-mongodb-plain"></i> <p>MongoDB</p>{' '}
                 </div>
-                <p>GitHub</p>
+              </div>
+              <div>
+                <div className="skill">
+                  <i className="devicon-github-original"></i> <p>GitHub</p>
+                </div>
               </div>
 
               <div>
                 <div className="skill">
-                  <i className="devicon-heroku-original"></i>{' '}
+                  <i className="devicon-heroku-original"></i> <p>Heroku</p>{' '}
                 </div>
-                <p>Heroku</p>
               </div>
               <div>
                 <div className="skill">
                   <i className="iconify" data-icon="simple-icons:netlify"></i>{' '}
+                  <p>Netlify</p>{' '}
                 </div>
-                <p>Netlify</p>
               </div>
               <div>
                 <div className="skill">
-                  <i className="devicon-vscode-plain"></i>{' '}
+                  <i className="devicon-vscode-plain"></i> <p>VSCode</p>{' '}
                 </div>
-                <p>VSCode</p>
               </div>
               <div>
                 <div className="skill">
-                  <i className="devicon-git-plain"></i>{' '}
+                  <i className="devicon-git-plain"></i> <p>Git</p>
                 </div>
-                <p>Git</p>
               </div>
               <div>
                 <div className="skill">
-                  <i className="devicon-sass-plain"></i>{' '}
+                  <i className="devicon-sass-plain"></i> <p>Sass</p>
                 </div>
-                <p>Sass</p>
               </div>
               <div>
                 <div className="skill">
-                  <i className="devicon-bulma-plain"></i>{' '}
+                  <i className="devicon-bulma-plain"></i> <p>Bulma</p>
                 </div>
-                <p>Bulma</p>
               </div>
 
               <div>
                 <div className="skill">
                   <i className="devicon-slack-plain"></i>
+                  <p>Slack</p>{' '}
                 </div>
-                <p>Slack</p>
-              </div>
-              <div>
-                <div className="skill">
-                  <i className="devicon-trello-plain"></i>
-                </div>
-                <p>Trello</p>
               </div>
             </div>
 

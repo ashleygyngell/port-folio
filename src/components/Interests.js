@@ -22,8 +22,8 @@ function Interests() {
               </div>
               <div className="languages">
                 <p>
-                  I have recently reignited my love for Spanish on DuoLingo -
-                  300 Days and Counting!
+                  I am also studying Spanish with daily DuoLingo lessons. Part
+                  of the 365 days club!
                 </p>
               </div>
               <div className="cycling">

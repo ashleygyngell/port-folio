@@ -21,7 +21,6 @@ body a {
 body a:hover {
   color: rgb(136, 135, 135);
 
-
 }
 
 body p {
@@ -42,6 +41,7 @@ body h3 {
   font-size: 3vh;
   text-align: center;
 }
+
 
 
 // PROJECT CONTAINERS
@@ -352,7 +352,8 @@ a:hover:after {
   display: flexbox;
   flex-wrap: wrap;
   column-count: 5;
-  padding: 0 25vw;
+  
+  padding: 0 15vw;
   text-align: center;
   font-size: 8vh;
 }
@@ -363,104 +364,113 @@ a:hover:after {
       transition: 0.1s;
 }
 
+.skill {
+  padding-bottom: 15px ;
+}
+
   
-  .devicon-html5-plain:hover {  
+  .devicon-html5-plain{  
   color: #E54D26;
   transition: 0.15s;    
 }
 
-.devicon-css3-plain:hover {
+.devicon-css3-plain{
   color: #3C8FC6;
   transition: 0.15s;
 }
 
-.devicon-javascript-plain:hover {
+.devicon-javascript-plain{
   color: #F0DB4F;
   transition: 0.15s;
 }
 
-.devicon-react-original:hover {
+.devicon-react-original {
   color: #61D9FB;
   transition: 0.15s;
 }
 
-.devicon-python-plain:hover {
+.devicon-python-plain{
   color: #FFD846;
   transition: 0.15s;
 }
 
-.devicon-django-plain:hover {
+.devicon-django-plain {
   color: #092E20;
   transition: 0.15s;
 }
 
-.devicon-postgresql-plain:hover {
+.devicon-postgresql-plain{
   color: #336890;
   transition: 0.15s;
 }
 
-.devicon-nodejs-plain:hover {
+.devicon-nodejs-plain{
   color: #83CD29;
   transition: 0.15s;
 }
 
-.devicon-npm-original-wordmark:hover {
+.devicon-npm-original-wordmark {
   color: #CB3837;
   transition: 0.15s;
 }
 
-.devicon-express-original:hover {
+.devicon-express-original {
   color: #444444;
   transition: 0.15s;
 }
 
-.devicon-mongodb-plain:hover {
+.devicon-mongodb-plain{
   color: #4FAA41;
   transition: 0.15s;
 }
 
 
 
-.devicon-github-original:hover {
+.devicon-github-original{
   color: #24292F;
   transition: 0.15s;
 }
 
-.devicon-heroku-original:hover {
+.devicon-heroku-original {
   color: #6762A6;
   transition: 0.15s;
 }
 
-.devicon-vscode-plain:hover {
+.devicon-vscode-plain{
   color: #3C99D4;
   transition: 0.15s;
 }
 
-.devicon-git-plain:hover {
+.devicon-git-plain{
   color: #F34E29;
   transition: 0.15s;
 }
 
-.devicon-sass-plain:hover {
+.devicon-sass-plain{
   color: #CC6699;
   transition: 0.15s;
 }
-.devicon-bulma-plain:hover {
+.devicon-bulma-plain {
 color: #0AD0B2;
   transition: 0.15s;
 }
 
-.devicon-slack-plain:hover {
+.devicon-slack-plain{
   color: #4A154B;
     transition: 0.15s;
     
 }
 
-.devicon-trello-plain:hover {
+.devicon-trello-plain{
   color: #2683FF;
   transition: 0.15s}
 
-.iconify:hover {
+  .devicon-typescript-plain{
+    color: #2e74c0;
+    transition: 0.15s;
+  }
+
+.iconify{
   color: #38AEBA;
     transition: 0.15s;
 }
@@ -617,6 +627,7 @@ color: #0AD0B2;
 }
 
 // Images
+
 
 #chat-screenshot-ipad {
   position: absolute;
@@ -798,11 +809,165 @@ transform: scale(1.1);
   color: black;
   text-transform: uppercase;
   text-decoration: none;
- 
-  
-  
 }
 
 
 
 
+  .skills-wrapper p {
+      word-spacing: 0.7rem;
+    }
+  
+    .skills-wrapper h2 {
+      font-size: 25px;
+      margin-top: 1vw;
+    }
+  
+  
+
+        @media all and (device-width: 1080px) and (device-height: 810px) and (orientation:landscape) {
+        
+      .chat {
+          display: flex;
+          width: 30vw;
+          height: 100vh;
+          margin: 5vh;
+        }
+
+        // Images
+    
+        #chat-screenshot-ipad {
+          position: relative;
+          top: 8vw;
+          right: -10vw;
+          height: 32vw;
+          max-height: fit-content;
+          width: auto;
+    
+        }
+    
+        #chat-screenshot-mac {
+          position: relative;
+          top: 1vw;
+          right: 60vw;
+          height: 45vw;
+          max-height: fit-content;
+          width: auto;
+    
+        }
+    
+        #chat-screenshot-phone {
+          position: relative;
+          top: 4vw;
+          right: 5vw;
+          height: 37vw;
+          max-height: fit-content;
+          width: auto;
+        }
+    
+    
+    
+        #lyricle-screenshot-ipad {
+          position: absolute;
+          top: -50vw;
+          right: -59vw;
+          height: 40vw;
+          max-height: fit-content;
+          width: auto;
+    
+        }
+    
+        #lyricle-screenshot-mac {
+          position: absolute;
+          top: 35vw;
+          right: -22vw;
+          height: 42vw;
+          max-height: fit-content;
+          width: auto;
+    
+        }
+    
+        #lyricle-screenshot-phone {
+          position: absolute;
+          top: 40vw;
+          right: -63vw;
+          height: 47vw;
+          max-height: fit-content;
+          width: auto;
+        }
+    
+        #discoverly-screenshot-ipad {
+          position: absolute;
+          top: 25vw;
+          right: -54vw;
+          height: 37vw;
+          max-height: fit-content;
+          width: auto;
+    
+        }
+    
+        #discoverly-screenshot-ipad2 {
+          position: absolute;
+          top: 50vw;
+          right: -61vw;
+          height: 28vw;
+          max-height: fit-content;
+          width: auto;
+    
+        }
+    
+        #discoverly-screenshot-phone {
+          position: absolute;
+          top: 40vw;
+          right: -58vw;
+          height: 35vw;
+          max-height: fit-content;
+          width: auto;
+        }
+    
+        #cryptmocash-screenshot-ipad {
+          position: absolute;
+          top: 65vh;
+          right: -60vw;
+          height: 30vw;
+          max-height: fit-content;
+          width: auto;
+    
+        }
+    
+        #cryptmocash-screenshot-ipad2 {
+          position: absolute;
+          top: 41vw;
+          right: -56vw;
+          height: 40vw;
+          max-height: fit-content;
+          width: auto;
+    
+        }
+    
+        #cryptmocash-screenshot-iphone {
+          position: absolute;
+          top: -30vw;
+          right: -62vw;
+          height: 38vw;
+          max-height: fit-content;
+          width: auto;
+        }
+    
+        #seipermarioman-screenshot-mac1 {
+          position: relative;
+          top: 58vw;
+          right: -14vw;
+          height: 35vw;
+          width: auto;
+        }
+    
+        #seipermarioman-screenshot-mac2 {
+          position: relative;
+            top: -10vw;
+            right: -10vw;
+            height: 35vw;
+            width: auto;
+        }
+
+                    }
